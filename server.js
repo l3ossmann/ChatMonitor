@@ -1,7 +1,7 @@
 const express = require("express");
 const axios = require("axios");
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 
 const DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1402179664369287218/ictAf1zZus-PwgZmALoQ2snGnqemOnJP7HKalAw8tpVe4EcQIZZEi3iZZyHzNFUSp-HH"; // Your webhook
 
